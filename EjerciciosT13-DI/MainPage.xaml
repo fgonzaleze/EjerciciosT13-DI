@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjerciciosT13_DI.MainPage">
+
+    <ContentPage.Resources>
+
+        <LinearGradientBrush x:Key="buttonBackground">
+
+            <GradientStop Offset="0" Color="Green"/>
+
+            <GradientStop Offset="1" Color="Purple"/>
+
+        </LinearGradientBrush>
+
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Button Text="Soy un botón morado y verde"
+                    Background="{StaticResource
+                    buttonBackground}">
+            </Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
